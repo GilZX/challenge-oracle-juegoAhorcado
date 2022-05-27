@@ -1,0 +1,186 @@
+body{
+    background-image: url("medival.jpg");
+}
+
+.palabra{
+    border-color: black;
+    position: absolute;
+    margin-top: 320px;
+    margin-left:520px;
+
+}
+
+.fallos{
+    border-color: black;
+    position: absolute;
+    margin-top: 420px;
+    margin-left:520px;
+}
+main{
+    border: solid black;
+    
+}
+#personalizar-palabra{
+    background-color:beige;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    font-style: italic;
+    color: black;
+    border-color: black;
+    border: solid;
+    border-radius: 2.5px;
+    font-size: medium;
+    align-items: center;
+}
+#tb-fallos{
+    background-color: royalblue;
+    opacity: 0.9;
+}
+
+#pantalla{
+    background-color: gray;
+    opacity: 0.5;
+    position: absolute;
+    margin-left: 450px;
+    margin-bottom: 150px;
+    
+
+}
+
+#finish img{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-left: 930px;
+  
+}
+#winner h1 {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-left: 930px;
+    margin-top: 250px;
+    visibility: hidden;
+}
+#winner img {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-left: 930px;
+}
+table{
+    width: 350px;
+}
+#tablero tr td{
+
+    color: darkblue;
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+    opacity: 0.5;
+    border: solid black;
+
+
+}
+
+#tr-fallos{
+    color: white;
+    text-decoration: solid;
+    font-size: medium;
+    font-weight: bold;
+}
+h1{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 15%;
+    font-family: 'Libre Bodoni', serif;
+}
+#reglas{
+    background-color: brown;
+    opacity: 0.8;
+    text-align: center;
+    color: orange;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.botones{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 490px;
+  
+    
+}
+.botones-2{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 490px;
+    
+}
+.btn{
+    background-color: white;
+    opacity: 0.5;
+    width: 225px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 24px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border-color: orangered ;
+    box-shadow: 2px;
+
+    
+}
+.btn-2{
+    background-color: black;
+    opacity: 0.5;
+    width: 225px;
+    padding: 20px;
+    border-radius: 24px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.btn:hover{
+    transform: scale(1.5);
+    color:red;
+}
+
+.btn-2:hover{
+    transform: scale(1.1);
+    color: red;
+}
+#resultadoH1{
+    position: absolute;
+    margin-bottom:100px;
+    margin-left: 500px;
+
+}
+#caballero01{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+
+}
+#caballero02{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 900px;
+}
+

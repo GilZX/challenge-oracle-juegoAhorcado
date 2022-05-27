@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Ahorcado</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="js/funciones.js"></script>
+    <script src="js/cronometro.js"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="resultado"> <img  id="logo" src="imagenes/logo.png"></header>
+    <div id="personalizar-palabra">
+        <img src="imagenes/caballero.png" width="200px" height="200px">
+        <p>¿Quieres Agregar una nueva palabra? </p>
+        <br>
+        <input type="text" id="inputNuevaPalabra" maxlength="8" style="visibility: hidden;">
+        <br>
+        <br>
+        <input class="btn" type="button" onclick="agregarPalabra()" value="Agregar-Palabra" style="background-color:black; color: white;">
+        <input class="btn" type="button" onclick="guardar()" value="Guardar-Palabra" style="background-color:black; color: white;">
+    </div>
+
+    <main>
+        
+        <canvas id="pantalla" width="450" height="350">
+           
+
+        </canvas>
+
+       
+
+
+        <div id="input-letra">
+        </div>
+        
+        <div class="palabra">
+
+            <table>
+              
+                <tbody id="tablero"></tbody>
+
+            </table>
+
+        </div>
+
+
+        <div class="fallos">
+            <table>
+                <tbody id="tb-fallos">
+                    <tr id="tr-fallos">
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="finish">
+            <img src="imagenes/gameover.png" id="img-gameover" style="visibility: hidden;">
+        </div>
+
+        <div id="winner">
+            <img src="imagenes/win.png" id="img-winner" style="visibility: hidden;">
+            <h1 id="h1Win">Ganaste Excelente Partida!!</h1>
+        </div>
+        <div class="botones-2">
+            <input class="btn-2" type="button" value="Nuevo Juego" onclick="newGame()">
+            <input class="btn-2" type="button" value="Rendirte" onclick="rendirte()">
+        </div>
+      
+
+
+    </main>
+
+    <div class="cronometro">
+        <p>
+            <span id="minutos">0</span>:<span id="segundos">0</span>
+        </p>
+    </div>
+
+</body>
+
+</html>
